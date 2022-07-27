@@ -7,22 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		126053B32890446900C27B79 /* ChartDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126053B22890446900C27B79 /* ChartDataStorage.swift */; };
 		126DD985288E9EE30004D7A6 /* ChartPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DD984288E9EE30004D7A6 /* ChartPlaygroundApp.swift */; };
 		126DD987288E9EE30004D7A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DD986288E9EE30004D7A6 /* ContentView.swift */; };
 		126DD989288E9EE50004D7A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126DD988288E9EE50004D7A6 /* Assets.xcassets */; };
 		126DD98C288E9EE50004D7A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126DD98B288E9EE50004D7A6 /* Preview Assets.xcassets */; };
+		126DD993288E9EF90004D7A6 /* BarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DD992288E9EF90004D7A6 /* BarShape.swift */; };
+		126DD995288E9F330004D7A6 /* AxisShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DD994288E9F330004D7A6 /* AxisShape.swift */; };
+		126DD997288ED1040004D7A6 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DD996288ED1040004D7A6 /* Main.swift */; };
+		126DD999289004490004D7A6 /* BarUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DD998289004490004D7A6 /* BarUnitView.swift */; };
+		128EA59128905BAB006D4A70 /* ChartPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128EA59028905BAB006D4A70 /* ChartPlaygroundTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		128EA59228905BAB006D4A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 126DD979288E9EE30004D7A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 126DD980288E9EE30004D7A6;
+			remoteInfo = ChartPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		126053B22890446900C27B79 /* ChartDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataStorage.swift; sourceTree = "<group>"; };
 		126DD981288E9EE30004D7A6 /* ChartPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		126DD984288E9EE30004D7A6 /* ChartPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPlaygroundApp.swift; sourceTree = "<group>"; };
 		126DD986288E9EE30004D7A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		126DD988288E9EE50004D7A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		126DD98B288E9EE50004D7A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		126DD992288E9EF90004D7A6 /* BarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarShape.swift; sourceTree = "<group>"; };
+		126DD994288E9F330004D7A6 /* AxisShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisShape.swift; sourceTree = "<group>"; };
+		126DD996288ED1040004D7A6 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		126DD998289004490004D7A6 /* BarUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarUnitView.swift; sourceTree = "<group>"; };
+		128EA58E28905BAB006D4A70 /* ChartPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128EA59028905BAB006D4A70 /* ChartPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPlaygroundTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		126DD97E288E9EE30004D7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128EA58B28905BAB006D4A70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				126DD983288E9EE30004D7A6 /* ChartPlayground */,
+				128EA58F28905BAB006D4A70 /* ChartPlaygroundTests */,
 				126DD982288E9EE30004D7A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				126DD981288E9EE30004D7A6 /* ChartPlayground.app */,
+				128EA58E28905BAB006D4A70 /* ChartPlaygroundTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				126DD984288E9EE30004D7A6 /* ChartPlaygroundApp.swift */,
+				126DD996288ED1040004D7A6 /* Main.swift */,
 				126DD986288E9EE30004D7A6 /* ContentView.swift */,
+				126DD99A2890338C0004D7A6 /* BarViewShape */,
+				126DD994288E9F330004D7A6 /* AxisShape.swift */,
+				126053B22890446900C27B79 /* ChartDataStorage.swift */,
 				126DD988288E9EE50004D7A6 /* Assets.xcassets */,
 				126DD98A288E9EE50004D7A6 /* Preview Content */,
 			);
@@ -65,6 +101,23 @@
 				126DD98B288E9EE50004D7A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		126DD99A2890338C0004D7A6 /* BarViewShape */ = {
+			isa = PBXGroup;
+			children = (
+				126DD992288E9EF90004D7A6 /* BarShape.swift */,
+				126DD998289004490004D7A6 /* BarUnitView.swift */,
+			);
+			path = BarViewShape;
+			sourceTree = "<group>";
+		};
+		128EA58F28905BAB006D4A70 /* ChartPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				128EA59028905BAB006D4A70 /* ChartPlaygroundTests.swift */,
+			);
+			path = ChartPlaygroundTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +140,24 @@
 			productReference = 126DD981288E9EE30004D7A6 /* ChartPlayground.app */;
 			productType = "com.apple.product-type.application";
 		};
+		128EA58D28905BAB006D4A70 /* ChartPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128EA59628905BAB006D4A70 /* Build configuration list for PBXNativeTarget "ChartPlaygroundTests" */;
+			buildPhases = (
+				128EA58A28905BAB006D4A70 /* Sources */,
+				128EA58B28905BAB006D4A70 /* Frameworks */,
+				128EA58C28905BAB006D4A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128EA59328905BAB006D4A70 /* PBXTargetDependency */,
+			);
+			name = ChartPlaygroundTests;
+			productName = ChartPlaygroundTests;
+			productReference = 128EA58E28905BAB006D4A70 /* ChartPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +170,10 @@
 				TargetAttributes = {
 					126DD980288E9EE30004D7A6 = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					128EA58D28905BAB006D4A70 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 126DD980288E9EE30004D7A6;
 					};
 				};
 			};
@@ -116,6 +191,7 @@
 			projectRoot = "";
 			targets = (
 				126DD980288E9EE30004D7A6 /* ChartPlayground */,
+				128EA58D28905BAB006D4A70 /* ChartPlaygroundTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +206,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		128EA58C28905BAB006D4A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +220,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126DD997288ED1040004D7A6 /* Main.swift in Sources */,
+				126DD995288E9F330004D7A6 /* AxisShape.swift in Sources */,
+				126053B32890446900C27B79 /* ChartDataStorage.swift in Sources */,
 				126DD987288E9EE30004D7A6 /* ContentView.swift in Sources */,
 				126DD985288E9EE30004D7A6 /* ChartPlaygroundApp.swift in Sources */,
+				126DD999289004490004D7A6 /* BarUnitView.swift in Sources */,
+				126DD993288E9EF90004D7A6 /* BarShape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128EA58A28905BAB006D4A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128EA59128905BAB006D4A70 /* ChartPlaygroundTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		128EA59328905BAB006D4A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 126DD980288E9EE30004D7A6 /* ChartPlayground */;
+			targetProxy = 128EA59228905BAB006D4A70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		126DD98D288E9EE50004D7A6 /* Debug */ = {
@@ -181,6 +285,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -202,6 +307,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -241,6 +347,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -269,6 +377,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ChartPlayground/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KBMC7D4CC;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -298,6 +407,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ChartPlayground/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KBMC7D4CC;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +424,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		128EA59428905BAB006D4A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KBMC7D4CC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nateCC.ChartPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartPlayground.app/ChartPlayground";
+			};
+			name = Debug;
+		};
+		128EA59528905BAB006D4A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KBMC7D4CC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nateCC.ChartPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartPlayground.app/ChartPlayground";
 			};
 			name = Release;
 		};
@@ -334,6 +480,15 @@
 			buildConfigurations = (
 				126DD990288E9EE50004D7A6 /* Debug */,
 				126DD991288E9EE50004D7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128EA59628905BAB006D4A70 /* Build configuration list for PBXNativeTarget "ChartPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128EA59428905BAB006D4A70 /* Debug */,
+				128EA59528905BAB006D4A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
